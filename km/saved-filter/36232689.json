@@ -1,0 +1,30 @@
+{
+  "$id": "36232689",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Agents",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "yext/name",
+        "text": {
+          "search": [
+            "Agent"
+          ],
+          "type": "CONTAINS"
+        }
+      },
+      {
+        "fieldId": "c_activeInAnswers",
+        "searchBool": "TRUE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/location"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}
