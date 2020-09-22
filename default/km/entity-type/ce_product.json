@@ -18,7 +18,7 @@
       "required": false
     },
     {
-      "id": "c_answersKeywords",
+      "id": "yext/keywords",
       "required": false
     },
     {
