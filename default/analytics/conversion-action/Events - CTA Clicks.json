@@ -1,8 +1,8 @@
 {
-  "$id": "4552",
+  "$id": "1000",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
-  "conversionName": "Locations - Phone Calls",
-  "conversionType": "LEAD",
+  "conversionName": "Events - CTA Clicks",
+  "conversionType": "SIGN_UP",
   "conversionValueType": "SAME",
   "conversionValueAmount": 50.0,
   "conversionTerm": {
@@ -11,10 +11,10 @@
   "conversionTrigger": {
     "clickTriggers": [
       {
-        "clickType": "CALL",
+        "clickType": "CALL_TO_ACTION",
         "entityFilter": {
           "entityTypeIn": [
-            "yext/location"
+            "yext/event"
           ]
         },
         "media": [
@@ -24,7 +24,7 @@
         ]
       }
     ],
-    "completionRate": 50.0
+    "completionRate": 25.0
   },
   "enabled": true
 }
