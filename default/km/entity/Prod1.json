@@ -4,19 +4,27 @@
   "content": {
     "c_activeInAnswers": true,
     "c_photo": {
-      "image": {
-        "height": 450,
-        "sourceUrl": "https://dynl.mktgcdn.com/p/vfvQHfHUO2W-m-_Ek969KGxEEdtlWwjiU4d7ij4JFFY/700x450.png",
-        "thumbnails": [
-          {
-            "height": 196,
-            "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/196x196.png",
-            "width": 196
-          }
-        ],
-        "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/450x450.png",
-        "width": 450
-      }
+      "height": 1112,
+      "sourceUrl": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
+      "thumbnails": [
+        {
+          "height": 732,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/619x732.png",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/380x450.png",
+          "width": 380
+        },
+        {
+          "height": 231,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/196x231.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
+      "width": 940
     },
     "c_price": "Starting at $99/year",
     "c_primaryCTA": {
