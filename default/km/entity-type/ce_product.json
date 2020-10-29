@@ -48,6 +48,10 @@
     {
       "id": "yext/entityId",
       "required": true
+    },
+    {
+      "id": "yext/landingPageUrl",
+      "required": false
     }
   ],
   "pluralDisplayName": "Products"

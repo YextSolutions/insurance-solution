@@ -5,15 +5,6 @@
   "filter": {
     "entityField": [
       {
-        "fieldId": "yext/name",
-        "text": {
-          "search": [
-            "Agent"
-          ],
-          "type": "DOES_NOT_CONTAIN"
-        }
-      },
-      {
         "fieldId": "c_activeInAnswers",
         "searchBool": "TRUE"
       }

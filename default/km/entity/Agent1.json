@@ -84,6 +84,6 @@
     "yext/name": "Sam Jones - Yext Agent",
     "yext/timezone": "America/New_York"
   },
-  "entityType": "yext/location",
+  "entityType": "yext/financialProfessional",
   "labels": []
 }

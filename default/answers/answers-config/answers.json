@@ -7,7 +7,7 @@
   "verticals": {
     "agents": {
       "entityTypes": [
-        "location"
+        "financialProfessional"
       ],
       "name": "Agents",
       "savedSearchId": "36232689",
