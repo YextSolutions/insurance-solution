@@ -34,6 +34,10 @@
       "required": false
     },
     {
+      "id": "c_productCategory",
+      "required": false
+    },
+    {
       "id": "c_secondaryCTA",
       "required": false
     },

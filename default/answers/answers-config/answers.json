@@ -30,6 +30,9 @@
         },
         "keywords": {
           "textSearch": true
+        },
+        "c_productCategory": {
+          "nlpFilter": true
         }
       },
       "sortBys": [],
