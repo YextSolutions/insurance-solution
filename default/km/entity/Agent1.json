@@ -3,18 +3,35 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
-    "c_professionalHeadshot": {
-      "height": 370,
+    "c_primaryCTA": {
+      "label": "Visit Page",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Call Now",
+      "link": "+1[[mainPhone]]",
+      "linkType": "PHONE"
+    },
+    "yext/headshot": {
+      "height": 197,
+      "sourceUrl": "http://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
       "thumbnails": [
         {
-          "height": 197,
-          "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/196x197.png",
-          "width": 196
+          "height": 150,
+          "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/149x150.png",
+          "width": 149
+        },
+        {
+          "height": 94,
+          "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/93x94.png",
+          "width": 93
         }
       ],
-      "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/368x370.png",
-      "width": 368
+      "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
+      "width": 196
     },
+    "yext/landingPageUrl": "https://www.yext.com",
     "yext/address": {
       "city": "New York",
       "countryCode": "US",
