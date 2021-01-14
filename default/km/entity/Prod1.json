@@ -17,6 +17,6 @@
     "yext/name": "Product",
     "yext/keywords": ["Professional Services"]
   },
-  "entityType": "ce_product",
+  "entityType": "ce_financialProduct",
   "labels": []
 }
