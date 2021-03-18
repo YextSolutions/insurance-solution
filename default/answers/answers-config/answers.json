@@ -6,6 +6,13 @@
   "countryRestrictions": [],
   "verticals": {
     "agents": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ]
+        }
+      },
       "entityTypes": [
         "financialProfessional"
       ],
@@ -16,14 +23,10 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "languages": {
           "nlpFilter": true
-        },
-        "mainPhone": {
-          "directAnswer": true
         },
         "name": {
           "textSearch": true
@@ -66,8 +69,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "employmentType": {
           "nlpFilter": true
@@ -94,6 +96,13 @@
       "useSynonyms": "ALL_SYNONYMS"
     },
     "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ]
+        }
+      },
       "entityTypes": [
         "location"
       ],
@@ -104,11 +113,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
-        "mainPhone": {
-          "directAnswer": true
+          "nlpFilter": true
         },
         "name": {
           "textSearch": true
@@ -167,14 +172,41 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "What is Yext?",
       "Products",
-      "Services offered",
-      "Locations near me"
-    ]
+      "Locations near me",
+      "services offered",
+      "agents near me",
+      "open jobs near me"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "open jobs near me"
+      ],
+      "services": [
+        "[[name]]"  
+      ],
+      "agents": [
+        "agents in [[address.city]]",
+        "agents in [[address.region]]",
+        "agents near me"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
@@ -189,5 +221,6 @@
       ]
     ]
   },
-  "localizations": {}
+  "localizations": {},
+  "additionalSearchablePlaces": []
 }
