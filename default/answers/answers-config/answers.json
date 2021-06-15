@@ -26,6 +26,7 @@
           "nlpFilter": true
         },
         "languages": {
+          "facet": true,
           "nlpFilter": true
         },
         "name": {
@@ -70,6 +71,9 @@
         },
         "builtin.location": {
           "nlpFilter": true
+        },
+        "c_department": {
+          "textSearch": true
         },
         "employmentType": {
           "nlpFilter": true
@@ -138,6 +142,9 @@
         "keywords": {
           "textSearch": true
         },
+        "c_productCategory": {
+          "nlpFilter": true
+        },
         "name": {
           "textSearch": true
         }
@@ -162,7 +169,8 @@
           "textSearch": true
         },
         "c_serviceCategory": {
-          "textSearch": true
+          "facet": true,
+          "nlpFilter": true
         },
         "name": {
           "textSearch": true
@@ -178,9 +186,9 @@
       "FAQs",
       "Products",
       "Locations near me",
-      "services offered",
-      "agents near me",
-      "open jobs near me"
+      "Services offered",
+      "Agents near me",
+      "Open jobs near me"
     ],
     "verticalPrompts": {
       "faqs": [
@@ -196,15 +204,15 @@
       ],
       "jobs": [
         "[[name]]",
-        "open jobs near me"
+        "Open jobs near me"
       ],
       "services": [
         "[[name]]"  
       ],
       "agents": [
-        "agents in [[address.city]]",
-        "agents in [[address.region]]",
-        "agents near me"
+        "Agents near [[address.city]]",
+        "Agents near [[address.region]]",
+        "Agents near me"
       ]
     }
   },

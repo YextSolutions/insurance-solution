@@ -5,15 +5,7 @@
   "entityType": "yext/location",
   "field": [
     {
-      "id": "c_activeInAnswers",
-      "required": false
-    },
-    {
       "id": "c_primaryCTA",
-      "required": false
-    },
-    {
-      "id": "c_professionalHeadshot",
       "required": false
     },
     {
