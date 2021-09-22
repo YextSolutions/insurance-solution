@@ -13,7 +13,7 @@
       "link": "+1[[mainPhone]]",
       "linkType": "PHONE"
     },
-    "yext/headshot": {
+    "headshot": {
       "height": 197,
       "sourceUrl": "http://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
       "thumbnails": [
@@ -31,17 +31,17 @@
       "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
       "width": 196
     },
-    "yext/landingPageUrl": "https://www.yext.com",
-    "yext/address": {
+    "landingPageUrl": "https://www.yext.com",
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/addressHidden": false,
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet commodo nulla facilisi nullam vehicula. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Quis imperdiet massa tincidunt nunc pulvinar. Cras sed felis eget velit aliquet sagittis.",
-    "yext/hours": {
+    "addressHidden": false,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet commodo nulla facilisi nullam vehicula. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Quis imperdiet massa tincidunt nunc pulvinar. Cras sed felis eget velit aliquet sagittis.",
+    "hours": {
       "friday": {
         "isClosed": false,
         "openIntervals": [
@@ -94,13 +94,13 @@
         ]
       }
     },
-    "yext/languages": [
+    "languages": [
       "Spanish"
     ],
-    "yext/mainPhone": "+17574070511",
-    "yext/name": "Sam Jones - Yext Agent",
-    "yext/timezone": "America/New_York"
+    "mainPhone": "+17574070511",
+    "name": "Sam Jones - Yext Agent",
+    "timezone": "America/New_York"
   },
-  "entityType": "yext/financialProfessional",
+  "entityType": "financialProfessional",
   "labels": []
 }
