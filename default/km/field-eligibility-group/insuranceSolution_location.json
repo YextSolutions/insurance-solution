@@ -1,0 +1,10 @@
+{
+  "$id": "insuranceSolution_location",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Insurance Solution - Location",
+  "entityType": "location",
+  "fields": [
+    "c_primaryCTA",
+    "c_secondaryCTA"
+  ]
+}

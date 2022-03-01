@@ -1,7 +1,7 @@
 {
-  "$id": "ce_service.default",
+  "$id": "insuranceSolution_ce_service",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Service-default",
+  "name": "Insurance Solution - Service",
   "entityType": "ce_service",
   "fields": [
     "landingPageUrl",

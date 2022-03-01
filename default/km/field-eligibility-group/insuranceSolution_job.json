@@ -1,7 +1,7 @@
 {
-  "$id": "job.default",
+  "$id": "insuranceSolution_job",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Job-default",
+  "name": "Insurance Solution - Job",
   "entityType": "job",
   "fields": [
     "c_activeInAnswers",
