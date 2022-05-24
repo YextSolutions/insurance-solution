@@ -10,7 +10,8 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -25,17 +26,24 @@
         "builtin.location": {
           "nlpFilter": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "languages": {
           "facet": true,
           "nlpFilter": true
         },
         "name": {
           "textSearch": true
-        },
-        "keywords": {
-          "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "agents",
+        "brokers",
+        "agents near me"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -49,13 +57,18 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
-          "semanticTextSearch": true
-        },
         "keywords": {
           "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -81,13 +94,20 @@
         "hiringOrganization": {
           "textSearch": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "jobs",
+        "open jobs",
+        "careers"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -95,6 +115,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -104,7 +125,8 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -119,13 +141,20 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "locations",
+        "locations near me",
+        "offices"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -139,16 +168,22 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "keywords": {
-          "textSearch": true
-        },
         "c_productCategory": {
           "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
         },
         "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "products",
+        "insurance"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -162,9 +197,6 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "keywords": {
-          "textSearch": true
-        },
         "c_associatedLocations.name": {
           "textSearch": true
         },
@@ -172,48 +204,20 @@
           "facet": true,
           "nlpFilter": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "services",
+        "insurance"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "FAQs",
-      "Products",
-      "Locations near me",
-      "Services offered",
-      "Agents near me",
-      "Open jobs near me"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
-      "locations": [
-        "Locations near [[address.city]]",
-        "Locations near [[address.region]]",
-        "Locations near me"
-      ],
-      "products": [
-        "[[name]]"
-      ],
-      "jobs": [
-        "[[name]]",
-        "Open jobs near me"
-      ],
-      "services": [
-        "[[name]]"  
-      ],
-      "agents": [
-        "Agents near [[address.city]]",
-        "Agents near [[address.region]]",
-        "Agents near me"
-      ]
     }
   },
   "synonyms": {
@@ -230,5 +234,43 @@
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "FAQs",
+      "Products",
+      "Locations near me",
+      "Services offered",
+      "Agents near me",
+      "Open jobs near me"
+    ],
+    "verticalPrompts": {
+      "agents": [
+        "Agents near [[address.city]]",
+        "Agents near [[address.region]]",
+        "Agents near me"
+      ],
+      "faqs": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "Open jobs near me"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ],
+      "services": [
+        "[[name]]"
+      ]
+    }
+  }
 }
