@@ -66,20 +66,6 @@
       },
       {
         "fieldIdentifier": {
-          "fieldId": "c_productCategory",
-          "propertyNames": []
-        },
-        "fieldKind": "LIST",
-        "listConfiguration": {
-          "isEmphasizedField": false,
-          "showFieldName": true,
-          "lineHeight": 1,
-          "showListValue": true,
-          "showListCount": true
-        }
-      },
-      {
-        "fieldIdentifier": {
           "fieldId": "entityId",
           "propertyNames": []
         },
